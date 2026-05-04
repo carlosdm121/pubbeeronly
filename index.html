@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pub rockero dedicado a la cerveza. Heavy Metal, cerveza fría y nada más. Donde el rock se bebe.">
+    <meta property="og:title" content="Pub Beer Only | Heavy Rock & Beer">
+    <meta property="og:description" content="Cerveza fría, música fuerte. El único pub que sirve solo cerveza con actitud rockera.">
+    <meta property="og:type" content="website">
+    <title>Pub Beer Only | Heavy Rock & Beer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#hero" class="nav__logo">
+                <img src="https://i.ibb.co/Q7LJ2sHN/logobeer.png" alt="Pub Beer Only Logo" class="nav__logo-img">
+            </a>
+            <div class="nav__menu" id="navMenu">
+                <ul class="nav__list">
+                    <li><a href="#hero" class="nav__link" data-es="Inicio" data-en="Home"></a></li>
+                    <li><a href="#about" class="nav__link" data-es="Nosotros" data-en="About"></a></li>
+                    <li><a href="#menu" class="nav__link" data-es="Cervezas" data-en="Beers"></a></li>
+                    <li><a href="#hours" class="nav__link" data-es="Horarios" data-en="Hours"></a></li>
+                    <li><a href="#contact" class="nav__link" data-es="Contacto" data-en="Contact"></a></li>
+                </ul>
+            </div>
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+            </button>
+            <button class="nav__lang" id="langToggle" aria-label="Switch language">
+                <span class="nav__lang-text">EN</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero__bg">
+                <img src="https://i.ibb.co/GQgcBQgK/hero.webp" alt="Pub rock atmosphere" class="hero__bg-img" loading="eager">
+                <div class="hero__bg-overlay"></div>
+                <div class="hero__bg-vignette"></div>
+                <div class="hero__bg-scanlines"></div>
+            </div>
+            <div class="hero__content container">
+                <p class="hero__tagline" data-es="SOLO CERVEZA. SOLO ROCK." data-en="COLD BEER. LOUD ROCK."></p>
+                <h1 class="hero__title">PUB<br>BEER<br>ONLY</h1>
+                <p class="hero__subtitle" data-es="Donde la cerveza es fría y el sonido es pesado." data-en="Where beer is cold and sound is heavy."></p>
+                <a href="#menu" class="btn btn--primary" data-es="Ver Cervezas" data-en="View Beers"></a>
+            </div>
+            <div class="hero__skull-divider">
+                <span>☠</span>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container about__grid">
+                <div class="about__text">
+                    <h2 class="section__title"><span class="section__title-deco">⚡</span> <span data-es="Nuestra Historia" data-en="Our History"></span></h2>
+                    <p class="section__text" data-es="No servimos comida. No servimos tragos. Solo cerveza. Y mucha." data-en="We don't serve food. We don't serve cocktails. Just beer. Lots of it."></p>
+                    <p class="section__text" data-es="Desde 2018, este es el refugio de quienes creen que la cerveza se toma con actitud, rodeados de riffs pesados, muros de amplificadores y envases llenos de espuma." data-en="Since 2018, this is the refuge for those who believe beer is meant to be drunk with attitude, surrounded by heavy riffs, walls of amps, and frothy mugs."></p>
+                    <p class="section__text" data-es="Vení a beber. A escuchar. A ser parte del ruido." data-en="Come drink. Listen. Be part of the noise."></p>
+                </div>
+                <div class="about__image">
+                    <img src="https://i.ibb.co/fd2z9Qk8/Gemini-Generated-Image-hpf47qhpf47qhpf4.png" alt="Amplificadores de guitarra" class="about__img" loading="lazy" data-es="Amplificadores de guitarra" data-en="Guitar amplifiers">
+                </div>
+            </div>
+        </section>
+
+        <section class="menu section" id="menu">
+            <div class="container">
+                <h2 class="section__title text-center"><span class="section__title-deco">☠</span> <span data-es="Nuestras Cervezas" data-en="Our Beers"></span></h2>
+                <p class="section__subtitle text-center" data-es="Cerveza artesanal, industrial y de pasión. Elegí tu veneno." data-en="Craft, industrial, and passion. Choose your poison."></p>
+
+                <div class="menu__grid">
+                    <article class="menu__item menu__item--lager">
+                        <div class="menu__item-img-wrap">
+                            <img src="https://i.ibb.co/tMfH2S8S/M-7-600x450-jpg.webp" alt="Heineken Large" class="menu__item-img" loading="lazy">
+                        </div>
+                        <h3 class="menu__item-title">Heineken Large</h3>
+                        <p class="menu__item-desc" data-es="Desde 1864 haciendo ruido en Ámsterdam. Pilsener 100% malta pura, fermentada 28 días con la legendaria levadura A. 5% ABV, sabor equilibrado y notas frutales. El clásico que no falta en el setlist de ningún bar." data-en="Since 1864 making noise in Ámsterdam. 100% pure malt Pilsener, fermented 28 days with legendary A-yeast. 5% ABV, balanced flavor with fruity notes. The classic that never misses a setlist."></p>
+                        <div class="menu__item-price-group">
+                            <span class="menu__item-price">$8.000</span>
+                            <span class="menu__item-price-usd">USD $8</span>
+                        </div>
+                        <div class="menu__item-abv">5% ABV</div>
+                    </article>
+                    <article class="menu__item menu__item--ipa">
+                        <div class="menu__item-img-wrap">
+                            <img src="https://i.ibb.co/3yrgWW8h/nippon-beer.png" alt="Nippon Beer" class="menu__item-img" loading="lazy">
+                        </div>
+                        <h3 class="menu__item-title">Nippon Beer</h3>
+                        <p class="menu__item-desc" data-es="Empresa japonesa independiente operando desde fines del siglo XIX. Lagers suaves y refrescantes, elaboradas con arroz para una textura limpia. Fusión de tradición nipona y demanda moderna. El riff zen que fluye limpio." data-en="Independent Japanese company operating since the late 19th century. Smooth, refreshing lagers brewed with rice for a clean texture. Fusion of Nippon tradition and modern demand. The zen riff that flows clean."></p>
+                        <div class="menu__item-price-group">
+                            <span class="menu__item-price">$12.500</span>
+                            <span class="menu__item-price-usd">USD $12</span>
+                        </div>
+                        <div class="menu__item-abv">5% ABV</div>
+                    </article>
+                    <article class="menu__item menu__item--stout">
+                        <div class="menu__item-img-wrap">
+                            <img src="https://i.ibb.co/ynCkrKhY/Gemini-Generated-Image-kf1s2rkf1s2rkf1s.png" alt="Eisen-Caramel-Bier" class="menu__item-img" loading="lazy">
+                        </div>
+                        <h3 class="menu__item-title">Eisen-Caramel-Bier</h3>
+                        <p class="menu__item-desc" data-es="Sanitáts-Bier alemán de los 20. Vollbier pasteurizada con hierro, caramelo y azúcar, promocionada para formar sangre y fortalecer nervios. De la Gaisberg Brauerei (Frankenhausen, 1866). El tónico riff que levanta el espíritu rockero." data-en="German Sanitáts-Bier from the 1920s. Pasteurized Vollbier with iron, caramel, and sugar, promoted as blood-building and nerve-strengthening. From Gaisberg Brauerei (Frankenhausen, 1866). The tonic riff that lifts the rock spirit."></p>
+                        <div class="menu__item-price-group">
+                            <span class="menu__item-price">$14.000</span>
+                            <span class="menu__item-price-usd">USD $14</span>
+                        </div>
+                        <div class="menu__item-abv">9.5% ABV</div>
+                    </article>
+                    <article class="menu__item menu__item--pale">
+                        <div class="menu__item-img-wrap">
+                            <img src="https://i.ibb.co/svJq5hp4/Gemini-Generated-Image-exf1yfexf1yfexf1.png" alt="Georges Bitter Ale" class="menu__item-img" loading="lazy">
+                        </div>
+                        <h3 class="menu__item-title">Georges Bitter Ale</h3>
+                        <p class="menu__item-desc" data-es="Bitter británica de tradición UK, amargor marcado por lúpulo. Brasserie Georges suma ingredientes orgánicos y el toque de lúpulos de Alsacia. El riff clásico con distorsión francesa." data-en="British bitter with UK tradition, marked hop bitterness. Brasserie Georges adds organic ingredients and the touch of Alsace hops. The classic riff with French distortion."></p>
+                        <div class="menu__item-price-group">
+                            <span class="menu__item-price">$10.000</span>
+                            <span class="menu__item-price-usd">USD $10</span>
+                        </div>
+                        <div class="menu__item-abv">4% ABV</div>
+                    </article>
+                    <article class="menu__item menu__item--stout">
+                        <div class="menu__item-img-wrap">
+                            <img src="https://i.ibb.co/v4FxwqsP/Gemini-Generated-Image-buqn8obuqn8obuqn.png" alt="Guinness Original" class="menu__item-img" loading="lazy">
+                        </div>
+                        <h3 class="menu__item-title">Guinness Original</h3>
+                        <p class="menu__item-desc" data-es="Stout irlandés desde 1821, Dublín. Negro profundo, espuma densa y cremosa. Cebada tostada sin fermentar, notas intensas de café y cacao amargo, equilibrado con un ligero dulzor. El riff de bajos que retumba en el pub." data-en="Irish stout since 1821, Dublin. Deep black, dense creamy foam. Unfermented toasted barley, intense notes of coffee and bitter cocoa, balanced with a light sweetness. The bass riff that rumbles in the pub."></p>
+                        <div class="menu__item-price-group">
+                            <span class="menu__item-price">$9.000</span>
+                            <span class="menu__item-price-usd">USD $9</span>
+                        </div>
+                        <div class="menu__item-abv">5% ABV</div>
+                    </article>
+                    <article class="menu__item menu__item--stout">
+                        <div class="menu__item-img-wrap">
+                            <img src="https://i.ibb.co/KjrNQKLQ/Gemini-Generated-Image-xg9m0xg9m0xg9m0x.png" alt="Cerveza Cuervo Porter" class="menu__item-img" loading="lazy">
+                        </div>
+                        <h3 class="menu__item-title">Cerveza Cuervo Porter</h3>
+                        <p class="menu__item-desc" data-es="Pionera de Colombia desde 1868, creada por los hermanos Cuervo en Bogotá. Porter estilo inglés premiada en la Exposición de 1871. Red de producción con franquicias regionales, incluyendo Medellín y Cundinamarca. El riff histórico que inauguró la escena nacional." data-en="Colombian pioneer since 1868, created by the Cuervo brothers in Bogotá. English-style Porter awarded at the 1871 Exposition. Production network with regional franchises including Medellín and Cundinamarca. The historic riff that inaugurated the national scene."></p>
+                        <div class="menu__item-price-group">
+                            <span class="menu__item-price">$11.000</span>
+                            <span class="menu__item-price-usd">USD $11</span>
+                        </div>
+                        <div class="menu__item-abv">5.5% ABV</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="hours section" id="hours">
+            <div class="container hours__grid">
+                <div class="hours__info">
+                    <h2 class="section__title"><span class="section__title-deco">🎸</span> <span data-es="Horarios y Ubicación" data-en="Hours & Location"></span></h2>
+                    <div class="hours__schedule">
+                        <h3 class="hours__subtitle" data-es="Cuándo Tocar" data-en="When to Play"></h3>
+                        <ul class="hours__list">
+                            <li><span data-es="Lunes - Jueves:" data-en="Monday - Thursday:"></span> 18:00 - 01:00</li>
+                            <li><span data-es="Viernes - Sábado:" data-en="Friday - Saturday:"></span> 18:00 - 03:00</li>
+                            <li><span data-es="Domingo:" data-en="Sunday:"></span> 18:00 - 00:00</li>
+                        </ul>
+                    </div>
+                    <div class="hours__location">
+                        <h3 class="hours__subtitle" data-es="Dónde Encontrarnos" data-en="Where to Find Us"></h3>
+                        <p>Av. Principal 1234</p>
+                        <p>Barrio Centro, Tucumán</p>
+                        <p class="hours__address-note" data-es="Buscá el edificio con la guitarra de neón." data-en="Look for the building with the neon guitar."></p>
+                    </div>
+                </div>
+                <div class="hours__map">
+                    <iframe
+                        class="hours__map-iframe"
+                        src="https://maps.google.com/maps?q=Microcentro,+San+Miguel+de+Tucumán,+Tucumán&output=embed"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="container text-center">
+                <h2 class="section__title"><span class="section__title-deco">📞</span> <span data-es="Contacto" data-en="Contact"></span></h2>
+                <p class="section__text" data-es="¿Querés reservar o tenés dudas? Gritanos." data-en="Want to book or have questions? Shout at us."></p>
+                <div class="contact__info">
+                    <p><strong>Tel:</strong> +54 9 381 123 4567</p>
+                    <p><strong>Email:</strong> info@pubbeeronly.com</p>
+                    <p><strong>Instagram:</strong> @PubBeerOnly</p>
+                    <p><strong>Spotify:</strong> Pub Beer Only Playlist</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <p class="footer__logo">
+                <img src="https://i.ibb.co/Q7LJ2sHN/logobeer.png" alt="Pub Beer Only Logo" class="footer__logo-img">
+            </p>
+            <p>© <span id="currentYear"></span> <span data-es="Todos los derechos reservados." data-en="All rights reserved."></span></p>
+            <p class="footer__tagline" data-es="Solo servimos cerveza. Porque la música necesita combustible." data-en="We only serve beer. Because music needs fuel."></p>
+            <div class="footer__divider">⚡ ⚡ ⚡</div>
+        </div>
+    </footer>
+
+    <button class="music-toggle" id="musicToggle" aria-label="Toggle music">
+        <span class="music-toggle__icon">♪</span>
+    </button>
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
